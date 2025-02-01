@@ -1,9 +1,9 @@
+import Auth from "./components/Auth";
 
 export default function Home() {
   return (
     <>
-    <div className="bg-red-400">hello</div>
-    
+    <Auth/>
     </>
   );
 }
